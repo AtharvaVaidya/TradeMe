@@ -38,5 +38,6 @@ class ListingsTableViewController: UITableViewController
         self.tableView?.dataSource = viewModel
         self.tableView?.backgroundColor = .white
         self.tableView.separatorInset = .zero
+        self.tableView?.allowsSelection = false
     }
 }
